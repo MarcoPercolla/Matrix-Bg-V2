@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body {
+    overflow: hidden;
+}
+
+canvas {
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    width: 40%;
+    height: 8rem;
+    position: absolute;
+    top: calc(50% - 5rem);
+    left: 30%;
+    text-align: center;
+
+    padding: 2.5rem;
+    border: solid #0aff0a 1px;
+    color: red;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 1rem;
+}
